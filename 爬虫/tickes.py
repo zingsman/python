@@ -49,7 +49,7 @@ class TrainsCollection:
             initial = train_no[0].lower()
             #print(initial)
             duration = raw_train_list[10]
-            if initial in self.options:
+            if  (initial in self.options) or (self.options == "") :
                 train = [
                     train_no,        
                     '\n'.join([Fore.LIGHTGREEN_EX + self.available_place[raw_train_list[6]] + Fore.RESET,
