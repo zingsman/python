@@ -1,0 +1,3 @@
+#/bin/python
+with open('/home/pengke/python/text.text','w') as f:
+    print(1,2,'Hello Word',sep=',',file=f)
