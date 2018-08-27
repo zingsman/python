@@ -1,0 +1,12 @@
+import os
+import fnmatch
+images = ['*.jpg','*.jpeg','*.png','*.tif','*.tiff','*.log']
+matches = []
+
+for user,dirnames,filenames, in os.walk(os.path.expanduser("~\Desktop\杂文档")):
+    for extensions in images:
+        for filenames in fnmatch.filter(filenames,extensions):
+            matches.append(os.path.join(user,filenames))
+
+print(matches)
+
