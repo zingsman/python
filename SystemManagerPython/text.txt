@@ -7,3 +7,4 @@
 尽早达到 PMF（Product Market Fit，产品和市场达到最佳的契合点）状态。
 git branch命令会列出所有分支，当前分支前面会标一个*号。
 master
+dev分支，分支管理策略，禁用Fast forward模式。
