@@ -11,7 +11,7 @@ def get_conn(**kwargs):
 def main():
     conn = get_conn(host='127.0.0.1',
                     user='app',
-                    passwd='app_!QAZxsw2',
+                    passwd='xxxxxx',
                     port=3306,db='pk')
     cur = conn.cursor()
     cur.execute('SELECT * FROM depute_trans')
