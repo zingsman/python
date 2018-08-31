@@ -8,7 +8,7 @@ def get_conn(**kwargs):
                db=kwargs.get('db'))
     return mysqldb
 def main():
-    conn = get_conn(host='127.0.0.1',user='app',passwd='app_!QAZxsw2',port=3306,db='pk')
+    conn = get_conn(host='127.0.0.1',user='app',passwd='xxxxxx',port=3306,db='pk')
     cur = conn.cursor()
     cur.execute('SELECT trans_date_time,acct_name,trans_amount,inst_code FROM depute_trans')
     all_data=cur.fetchall()
