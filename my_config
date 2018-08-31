@@ -1,6 +1,0 @@
-[mariadb]
-host = 127.0.0.1
-user = app
-passwd = app_!QAZxsw2
-port = 3306
-db = pk
