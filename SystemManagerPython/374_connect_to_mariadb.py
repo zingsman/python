@@ -29,6 +29,6 @@ def main():
             for i in data:
                 f.write(str(i) + '|')
             f.write('\n')
-        print('Data write to "mysql_data.txt" is over!')
+        print('Data write to "mysql_data.txt" is over!!!')
 if __name__ == '__main__':
     main()
